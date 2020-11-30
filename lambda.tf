@@ -1,8 +1,8 @@
 resource "aws_s3_bucket_object" "example" {
   bucket = aws_s3_bucket.lambda.id
-  key    = "${var.VERSION}/example.zip"
-  source = "functions/node/example/example.zip"
-  etag = filemd5("functions/node/example/example.zip")
+  key    = "applications/example/${var.VERSION}/code.zip"
+  source = "applications/example/code.zip"
+  etag = filemd5("applications/example/code.zip")
 }
 
 resource "aws_lambda_function" "example" {
