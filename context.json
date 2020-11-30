@@ -1,0 +1,10 @@
+{
+    "callbackWaitsForEmptyEventLoop": true,
+    "functionVersion": "$LATEST",
+    "functionName": "ServerlessExample",
+    "memoryLimitInMB": "128",
+    "logGroupName": "/aws/lambda/ServerlessExample",
+    "logStreamName": "2020/11/30/[$LATEST]ee0f58be38604e88bd4676f2c12de6ef",
+    "invokedFunctionArn": "arn:aws:lambda:eu-west-1:<account_id>:function:ServerlessExample",
+    "awsRequestId": "ff136cb6-74fb-456d-9705-5cda7aa2753a"
+  }
